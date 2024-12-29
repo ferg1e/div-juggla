@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>{{title}}</title>
+        <link rel="stylesheet" href="golden-frog.css">
     </head>
-    <body>{{content}}</body>
+    <body>
+        <div id="whole">
+            <div><ul id="nav">{{nav_items}}</ul></div>
+            <div{{content_attrs}}>{{content}}</div>
+        </div>
+    </body>
 </html>

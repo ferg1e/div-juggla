@@ -1,0 +1,167 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #0000ea;
+}
+
+#whole {
+    margin: 0 auto;
+    max-width: 640px;
+    max-width: 40rem;
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.non-proj {
+    padding-top: 24px;
+    padding-top: 1.5rem;
+}
+
+.proj {
+    padding-top: 24px;
+    padding-top: 1.5rem;
+    margin-bottom: 96px;
+    margin-bottom: 6rem;
+}
+
+.proj h2 {
+    padding: 0;
+    margin: 0 0 2px 0;
+    margin: 0 0 .125rem 0;
+    font-weight: normal;
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.proj h2 a {
+    color: #666563;
+    text-decoration: none;
+}
+
+#nav {
+    margin: 48px 0 24px 0;
+    margin: 3rem 0 1.5rem 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 4px 12px 4px 12px;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav a.curr-nav {
+    font-weight: bold;
+}
+
+.stack {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.stack li {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.stack li em {
+    background: #fcdcf7;
+    color: #232323;
+    border-radius: 2px;
+    padding: 1px 2px;
+}
+
+.stack li a {
+    background: #19a316;
+    color: white;
+    border-radius: 2px;
+    padding: 1px 2px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.stack li a.github {
+    background: #333333;
+}
+
+.thumbs {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.thumbs li {
+    display: inline-block;
+}
+
+.thumbs li a {
+    display: block;
+    width: 96px;
+    width: 6rem;
+    height: 96px;
+    height: 6rem;
+    position: relative;
+    margin: 10px 10px 0 0;
+    border: 1px solid #c7c7c7;
+    background-color: #f7f7f7;
+}
+
+.thumbs li a:hover {
+    border: 1px solid #969696;
+}
+
+.thumbs li a img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        margin-left: 20px;
+        margin-left: 1.25rem;
+        margin-right: 20px;
+        margin-right: 1.25rem;
+    }
+
+    #whole {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .non-proj {
+        padding-top: 16px;
+        padding-top: 1rem;
+    }
+
+    .proj {
+        padding-top: 16px;
+        padding-top: 1rem;
+        margin-bottom: 64px;
+        margin-bottom: 4rem;
+    }
+
+    .proj h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    #nav {
+        margin: 32px 0 16px 0;
+        margin: 2rem 0 1rem 0;
+    }
+}
