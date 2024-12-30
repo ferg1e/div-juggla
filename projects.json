@@ -1,5 +1,11 @@
 [
     {
+        "title": "Static Site Generator",
+        "content": "I made a static site generator for this portfolio site of mine that you are currently viewing. There is one base HTML template that is used to generate the home, projects and contact pages. The content block for home and contact is just text, whereas the projects page uses JSON plus a function.",
+        "stack": ["HTML", "CSS", "JavaScript", "Node"],
+        "github": "https://github.com/ferg1e/div-juggla"
+    },
+    {
         "title": "Git Visualization",
         "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors. Some of the projects on this page have one of these visualizations indicated by a green Git link. These visualizations require a browser width of at least 1,200 pixels.",
         "images": [
