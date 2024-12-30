@@ -37,7 +37,7 @@ function contentProjects() {
         const pid = p.title.toLowerCase().split(' ').join('-')
         let imagesHtml = ''
 
-        if(p.images.length > 0) {
+        if(p.images && p.images.length > 0) {
             imagesHtml += '<ul class="thumbs">'
 
             for(let j = 0; j < p.images.length; ++j) {
