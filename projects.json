@@ -221,6 +221,12 @@
         "git_vis": "t/git-vis-hair.html"
     },
     {
+        "title": "Database Library",
+        "content": "I built a database library. It's a prepared statement wrapper. There is also a model layer that makes it easy to use this library inside of class methods. Many of the projects on this page use this library.",
+        "stack": ["PHP", "MySQL", "PostgreSQL", "SQLite"],
+        "github": "https://github.com/ferg1e/pajamaSQL"
+    },
+    {
         "title": "Lead Retrieval System",
         "content": "I created a lead retrieval system for trade shows. We create badges for all attendees. Then trade show vendors scan attendee badges and the attendees answer questions on a tablet. The attendee answers are uploaded to a database and the vendors can download them later via a web portal.",
         "images": [
