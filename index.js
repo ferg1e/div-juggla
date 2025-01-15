@@ -5,7 +5,7 @@ const templateText = fs.readFileSync('template.html', 'utf8')
 const pages = [
     {
         title: "Ry's Apps",
-        content: `Hello, I am a freelance software developer. I usually develop web apps. I have also built CLI apps, iOS apps, desktop apps, libraries, frameworks and video games. You can see past projects on the <a href="projects.html">projects page</a>.`,
+        content: `Hello, I am a freelance software developer. I usually develop web apps. I have also built CLI apps, iOS apps, desktop apps, libraries and video games. You can see past projects on the <a href="projects.html">projects page</a>.`,
         filename: 'index.html',
         nav_title: 'home',
         nav_url: '/',
