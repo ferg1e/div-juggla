@@ -35,6 +35,12 @@
         "git_vis": "t/git-vis-rms.html"
     },
     {
+        "title": "Healthcare Portal",
+        "content": "I worked on a healthcare web app with about seven other developers. Initially I did some easy tasks. Next, I fixed a user reporting search page that supposedly had never worked - this impressed them. Then I built a super-admin dashboard, an insurance eligibility checker, and a patient bulk importer. The eligibility checker was the biggest project - it involved a CMS and an algorithm that checks if family medical history matches health insurance criteria.",
+        "stack": ["HTML", "AngularJS", "C#", "ASP.NET", "SQL Server"],
+        "git_vis": "t/git-vis-health.html"
+    },
+    {
         "title": "Video Game",
         "content": "I built a game engine and video game for iOS. The game loop uses a fixed physics time step and interpolates leftover time. Another notable feature of this that I built was the text glyph rendering system. The full version has 30 levels and the lite version has 12 levels. The first time I ever used Git was on this project.",
         "images": [
