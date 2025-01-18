@@ -36,7 +36,7 @@
     },
     {
         "title": "Healthcare Portal",
-        "content": "I worked on a healthcare web app with about seven other developers. Initially I did some easy tasks. Next, I fixed a user reporting search page that supposedly had never worked - this impressed them. Then I built a super-admin dashboard, an insurance eligibility checker, and a patient bulk importer. The eligibility checker was the biggest project - it involved a CMS and an algorithm that checks if family medical history matches health insurance criteria.",
+        "content": "This was my first C#/.NET job. I worked on a healthcare app with 8 other developers. During the first two weeks I did easy tasks. Next, they asked me to fix a user search page that had never worked. Once I completed that task they started to assign me their most challenging and important projects. I built a super-admin dashboard, an insurance eligibility checker, and a patient bulk importer. The eligibility checker was the biggest project - it involved a CMS and an algorithm that checks if family medical history matches health insurance criteria. This job is how I discovered LINQ, which is super cool.",
         "stack": ["HTML", "AngularJS", "C#", "ASP.NET", "SQL Server"],
         "git_vis": "t/git-vis-health.html"
     },
