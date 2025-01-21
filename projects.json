@@ -423,5 +423,12 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Braintree"]
+    },
+    {
+        "title": "Skeleton User Website",
+        "content": "I created a skeleton user-based website. It includes sign up, log in, log out, verify email, forgot password, remember me login, edit account and delete account. This is used as a starting point for the following projects on this page: <a href=\"#crm-system\">CRM</a>, <a href=\"#furniture-rental-system\">furniture rentals</a>, <a href=\"#virtual-crowd\">virtual crowd</a> and <a href=\"#space-mmo\">MMO game</a>.",
+        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "git_vis": "t/git-vis-screen-name.html",
+        "github": "https://github.com/ferg1e/screen-name"
     }
 ]
