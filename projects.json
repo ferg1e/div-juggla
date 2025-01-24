@@ -430,5 +430,18 @@
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-screen-name.html",
         "github": "https://github.com/ferg1e/screen-name"
+    },
+    {
+        "title": "React Table Component",
+        "content": "I programmed a React table component. It displays an array of arrays or an array of object literals as an HTML table. You can edit table cells. If you use object literals you can sort by columns. I want to add more features so that it's like a spreadsheet.",
+        "images": [
+            {
+                "thumb": "img/rable/002-sml.png",
+                "image": "img/rable/002.png"
+            }
+        ],
+        "stack": ["HTML", "CSS", "JavaScript", "React"],
+        "git_vis": "t/git-vis-rable.html",
+        "github": "https://github.com/ferg1e/rable"
     }
 ]
