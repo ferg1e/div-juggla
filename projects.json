@@ -96,6 +96,14 @@
             {
                 "thumb": "img/dt/dovetail-g-sml.jpg",
                 "image": "img/dt/dovetail-g.jpg"
+            },
+            {
+                "thumb": "img/dt/dovetail-e-sml.jpg",
+                "image": "img/dt/dovetail-e.jpg"
+            },
+            {
+                "thumb": "img/dt/dovetail-i-sml.jpg",
+                "image": "img/dt/dovetail-i.jpg"
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Braintree"],
