@@ -83,7 +83,7 @@
     },
     {
         "title": "Furniture Rental System",
-        "content": "I planned and coded this furniture rental system for a prop rental business in New York City. I worked on this with the owner and the warehouse manager. It uses a two phase shopping cart and items are held for customers before they pay. The admin area contains several calendar tools.",
+        "content": "I planned and coded this furniture rental system for a prop rental business in New York City. I worked on this with the owner and the warehouse manager. There is a two phase shopping cart and items are held for customers before they pay. It uses barcode scanning for check-in, check-out and add to inventory. The admin area contains several calendar tools.",
         "images": [
             {
                 "thumb": "img/dt/dovetail-a-sml.jpg",
