@@ -451,5 +451,11 @@
         "stack": ["HTML", "CSS", "JavaScript", "React"],
         "git_vis": "t/git-vis-rable.html",
         "github": "https://github.com/ferg1e/rable"
+    },
+    {
+        "title": "Salespeople CRM",
+        "content": "I made a CRM system for car salespeople. The salesperson uses the system to keep track of prospective car buyers. The system is sold to a car dealership, and the dealership provides access to their salespeople. Salespeople can send SMS text messages to car buyers via a web app. The payments setup involves free trials, subscriptions and multiple subscriptions per dealership. Here is a <a href=\"https://stackoverflow.com/questions/27596487/how-to-make-a-stripe-subscription-status-go-from-trialing-to-cancelled-if-there\">Stack Overflow payments question I asked</a> for this project. I only had an equity stake in this app.",
+        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Stripe", "Twilio"],
+        "git_vis": "t/git-vis-efu.html"
     }
 ]
