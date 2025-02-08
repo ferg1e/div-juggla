@@ -1,7 +1,7 @@
 [
     {
         "title": "Static Site Generator",
-        "content": "I made a static site generator for this portfolio site of mine that you are currently viewing. There is one base HTML template that is used to generate the home, projects and contact pages. The content block for home and contact is just text, whereas the projects page uses JSON plus a function.",
+        "content": "I made a static site generator for this portfolio site you are currently viewing. There is one base HTML template that is used to generate the home, projects and contact pages. The content block for home and contact is just text, whereas the projects page uses JSON plus a function.",
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "github": "https://github.com/ferg1e/div-juggla"
     },
