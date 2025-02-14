@@ -337,8 +337,8 @@
         "github": "https://github.com/ferg1e/this-site"
     },
     {
-        "title": "Reporting Tool",
-        "content": "I made this reporting tool. It shows results of marketing campaigns. Part of this project is web scraping that runs daily. A super admin can create admins, and admins can create login codes for customers. The admin area contains an intricate AJAX search tool.",
+        "title": "Business Intelligence System",
+        "content": "This is my biggest client. We ETL car dealership sales data, build web apps and CLI apps to crunch that data, and then generate optimized snail mail marketing campaigns. I was initially hired by the owner and the lead developer to build <a href=\"#crm-system\">this CRM</a>. One year later, the lead developer left and I took over everything. The main pieces are: the ETL system, the CRM site, a reporting site, an internal project manager site, a site with the main/initial set of customer tools and a suite of hundreds of CLI scripts.",
         "images": [
             {
                 "thumb": "img/gr/reporting-c-sml.jpg",
@@ -355,9 +355,18 @@
             {
                 "thumb": "img/gr/reporting-g-sml.jpg",
                 "image": "img/gr/reporting-g.jpg"
+            },
+            {
+                "thumb": "img/gr/promot-a-sml.jpg",
+                "image": "img/gr/promot-a.jpg"
+            },
+            {
+                "thumb": "img/gr/promot-b-sml.jpg",
+                "image": "img/gr/promot-b.jpg"
             }
         ],
-        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+        "stack": ["HTML", "CSS", "JavaScript", "PHP", "Perl", "MySQL"],
+        "git_vis": "t/git-vis-promot.html"
     },
     {
         "title": "English Learning App",
