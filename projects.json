@@ -466,5 +466,16 @@
         "content": "I made a CRM system for car salespeople. The salesperson uses the system to keep track of prospective car buyers. The system is sold to a car dealership, and the dealership provides access to their salespeople. Salespeople can send SMS text messages to car buyers via a web app. The payments setup involves free trials, subscriptions and multiple subscriptions per dealership. Here is a <a href=\"https://stackoverflow.com/questions/27596487/how-to-make-a-stripe-subscription-status-go-from-trialing-to-cancelled-if-there\">Stack Overflow payments question I asked</a> for this project. I only had an equity stake in this app.",
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Stripe", "Twilio"],
         "git_vis": "t/git-vis-efu.html"
+    },
+    {
+        "title": "Document Repository",
+        "content": "I developed an online document repository system. There are three navigation levels and then a list of links. The links are the documents. A link can be any URL on the internet or a set of videos. All the content in the app is data driven. I built this for a man named Ken Miller and his company called Somnio, but supposedly it was for Intel to use with their business partners.",
+        "images": [
+            {
+                "thumb": "img/doc-repo/001-sml.jpg",
+                "image": "img/doc-repo/001.jpg"
+            }
+        ],
+        "stack": ["ActionScript", "XML"]
     }
 ]
