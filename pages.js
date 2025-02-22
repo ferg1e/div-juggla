@@ -1,3 +1,6 @@
+const projects = require('./projects.json')
+
+//
 module.exports = [
     {
         title: "Ry's Apps",
@@ -9,7 +12,7 @@ module.exports = [
     },
     {
         title: "Projects",
-        content: contentProjects(),
+        content: contentProjects(projects),
         filename: 'projects.html',
         nav_title: 'projects',
         nav_url: '/projects',
@@ -25,8 +28,7 @@ module.exports = [
 ]
 
 //
-function contentProjects() {
-    const projects = require('./projects.json')
+function contentProjects(projects) {
     let out = ''
 
     for(let i = 0; i < projects.length; ++i) {
