@@ -1,23 +1,8 @@
 const fs = require('fs')
 const pages = require('./pages.js')
+const {getNavItems} = require('./get-nav-items.js')
 
 const templateText = fs.readFileSync('template.html', 'utf8')
-
-//
-function getNavItems(pages, currPage) {
-    let r = ''
-
-    for(let i = 0; i < pages.length; ++i) {
-        const p = pages[i]
-        const cssClass = i == currPage
-            ? ' class="curr-nav"'
-            : ''
-
-        r += `<li><a href="${p.nav_url}"${cssClass}>${p.nav_title}</a></li>`
-    }
-
-    return r
-}
 
 //
 for(let i = 0; i < pages.length; ++i) {
