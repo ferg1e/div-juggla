@@ -1,12 +1,5 @@
 [
     {
-        "title": "Static Site Generator",
-        "content": "I made a static site generator for this portfolio site you are currently viewing. If you run the generator without modification, then you will get this exact site. But it is easy to change the data in order to generate a different website.",
-        "stack": ["HTML", "CSS", "JavaScript", "Node"],
-        "git_vis": "t/git-vis-ssg.html",
-        "github": "https://github.com/ferg1e/div-juggla"
-    },
-    {
         "title": "Git Visualization",
         "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors. Some of the projects on this page have one of these visualizations indicated by a green Git link. These visualizations require a browser width of at least 1,200 pixels.",
         "images": [
@@ -18,6 +11,13 @@
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "git_vis": "t/git-vis-git-vis.html",
         "github": "https://github.com/ferg1e/mrs-green-squares"
+    },
+    {
+        "title": "Static Site Generator",
+        "content": "I made a static site generator for this portfolio site you are currently viewing. If you run the generator without modification, then you will get this exact site. But it is easy to change the data in order to generate a different website.",
+        "stack": ["HTML", "CSS", "JavaScript", "Node"],
+        "git_vis": "t/git-vis-ssg.html",
+        "github": "https://github.com/ferg1e/div-juggla"
     },
     {
         "title": "Restaurant Management System",
