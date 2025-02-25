@@ -3,6 +3,7 @@
         "title": "Static Site Generator",
         "content": "I made a static site generator for this portfolio site you are currently viewing. If you run the generator without modification, then you will get this exact site. But it is easy to change the data in order to generate a different website.",
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
+        "git_vis": "t/git-vis-ssg.html",
         "github": "https://github.com/ferg1e/div-juggla"
     },
     {
