@@ -53,6 +53,5 @@ module.exports.contentProjects = (projects) => {
         tocLinks.push(`<li><a href="#${pid}">${p.title}</a></li>`)
     }
 
-    out = `<ul id="toc">${tocLinks.join('')}</ul>` + out
-    return out
+    return `<ul id="projects-nav">${tocLinks.join('')}</ul>` + `<div id="projects">${out}</div>`
 }
