@@ -60,6 +60,26 @@ a {
     font-weight: bold;
 }
 
+#toc {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#toc li {
+    display: inline-block;
+    margin: 4px 12px 4px 12px;
+}
+
+#toc a {
+    text-decoration: none;
+    color: gray;
+}
+
+#toc a:hover {
+    color: black;
+}
+
 .stack {
     margin: 0;
     padding: 0;

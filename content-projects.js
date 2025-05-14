@@ -1,5 +1,6 @@
 module.exports.contentProjects = (projects) => {
     let out = ''
+    const tocLinks = []
 
     for(let i = 0; i < projects.length; ++i) {
         const p = projects[i]
@@ -49,7 +50,9 @@ module.exports.contentProjects = (projects) => {
         const contentHtml = `<div>${p.content}</div>`
 
         out += `<div id="${pid}" class="proj">${h2Html}${contentHtml}${stackHtml}${imagesHtml}</div>`
+        tocLinks.push(`<li><a href="#${pid}">${p.title}</a></li>`)
     }
 
+    out = `<ul id="toc">${tocLinks.join('')}</ul>` + out
     return out
 }
