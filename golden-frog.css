@@ -69,8 +69,8 @@ a {
 }
 
 #projects-nav {
-    padding: 24px 0 0 0;
-    padding: 1.5rem 0 0 0;
+    padding: 24px 0 14px 0;
+    padding: 1.5rem 0 .875rem 0;
     text-align: center;
     margin: 0 auto;
     max-width: 880px;
