@@ -57,6 +57,7 @@ a {
 #nav li {
     display: inline-block;
     margin: 4px 12px 4px 12px;
+    margin: .25rem .75rem .25rem .75rem;
 }
 
 #nav a {
@@ -79,6 +80,7 @@ a {
 #projects-nav li {
     display: inline-block;
     margin: 0 14px 10px 14px;
+    margin: 0 .875rem .625rem .875rem;
 }
 
 #projects-nav a {
