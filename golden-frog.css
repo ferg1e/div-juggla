@@ -26,11 +26,6 @@ a {
     text-align: center;
 }
 
-.non-proj {
-    padding-top: 24px;
-    padding-top: 1.5rem;
-}
-
 .proj {
     padding-top: 24px;
     padding-top: 1.5rem;
@@ -175,11 +170,6 @@ a {
 
     #projects-nav {
         display: none;
-    }
-
-    .non-proj {
-        padding-top: 16px;
-        padding-top: 1rem;
     }
 
     .proj {
