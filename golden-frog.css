@@ -173,6 +173,10 @@ a {
         margin-right: 1.25rem;
     }
 
+    #projects-nav {
+        display: none;
+    }
+
     .non-proj {
         padding-top: 16px;
         padding-top: 1rem;
