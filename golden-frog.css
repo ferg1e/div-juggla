@@ -89,11 +89,6 @@ a {
 
 #projects-nav a {
     text-decoration: none;
-    color: gray;
-}
-
-#projects-nav a:hover {
-    color: black;
 }
 
 .stack {
