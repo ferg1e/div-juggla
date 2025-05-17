@@ -47,6 +47,10 @@ a {
     text-decoration: none;
 }
 
+:target h2 a {
+    color: #252524;
+}
+
 #nav {
     margin: 48px 0 24px 0;
     margin: 3rem 0 1.5rem 0;
@@ -104,10 +108,14 @@ a {
 }
 
 .stack li em {
-    background: #fcdcf7;
+    background: #fee2fa;
     color: #232323;
     border-radius: 2px;
     padding: 1px 2px;
+}
+
+:target .stack li em {
+    background: #fbb0ef;
 }
 
 .stack li a {
