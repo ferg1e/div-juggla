@@ -7,7 +7,6 @@ function genHtmlFiles(pages, templateText) {
     
         const html = templateText
             .replace('{{title}}', page.title)
-            .replace('{{content_attrs}}', page.content_attrs ? ' ' + page.content_attrs : '')
             .replace('{{content}}', page.content)
             .replace('{{nav_items}}', getNavItems(pages, i))
     
