@@ -1,4 +1,9 @@
 module.exports.contentProjects = (projects) => {
+
+    //
+    projects.sort((a, b) => b.order - a.order)
+
+    //
     let out = ''
     const tocLinks = []
 

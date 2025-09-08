@@ -10,14 +10,16 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "git_vis": "t/git-vis-git-vis.html",
-        "github": "https://github.com/ferg1e/mrs-green-squares"
+        "github": "https://github.com/ferg1e/mrs-green-squares",
+        "order": 2016
     },
     {
         "title": "Static Site Generator",
         "content": "I made a static site generator for this portfolio site you are currently viewing. If you run the generator without modification, then you will get this exact site. But it is easy to change the data in order to generate a different website.",
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "git_vis": "t/git-vis-ssg.html",
-        "github": "https://github.com/ferg1e/div-juggla"
+        "github": "https://github.com/ferg1e/div-juggla",
+        "order": 2024
     },
     {
         "title": "Restaurant Management System",
@@ -33,13 +35,15 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        "git_vis": "t/git-vis-rms.html"
+        "git_vis": "t/git-vis-rms.html",
+        "order": 2020
     },
     {
         "title": "Healthcare Portal",
         "content": "This was my first C#/.NET job. I worked on a healthcare app with 8 other developers. During the first two weeks I did easy tasks. Next, they asked me to fix a user search page that had never worked. Once I completed that task they started to assign me their most challenging and important projects. I built a super-admin dashboard, an insurance eligibility checker, and a patient bulk importer. The eligibility checker was the biggest project - it involved a CMS and an algorithm that checks if family medical history matches health insurance criteria. This job is how I discovered LINQ, which is super cool.",
         "stack": ["HTML", "AngularJS", "C#", "ASP.NET", "SQL Server"],
-        "git_vis": "t/git-vis-health.html"
+        "git_vis": "t/git-vis-health.html",
+        "order": 2016
     },
     {
         "title": "Video Game",
@@ -59,7 +63,8 @@
             }
         ],
         "stack": ["C++", "OpenGL ES"],
-        "git_vis": "t/git-vis-ios-game.html"
+        "git_vis": "t/git-vis-ios-game.html",
+        "order": 2011
     },
     {
         "title": "Internet Forum",
@@ -80,7 +85,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "Node", "PostgresSQL"],
         "git_vis": "t/git-vis-forum.html",
-        "github": "https://github.com/ferg1e/comment-castles"
+        "github": "https://github.com/ferg1e/comment-castles",
+        "order": 2025.1
     },
     {
         "title": "Furniture Rental System",
@@ -108,7 +114,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Braintree"],
-        "git_vis": "t/git-vis-furniture.html"
+        "git_vis": "t/git-vis-furniture.html",
+        "order": 2017
     },
     {
         "title": "AI Gaming Platform",
@@ -120,7 +127,8 @@
             }
         ],
         "stack": ["JavaScript", "Phaser", "Python", "Django"],
-        "git_vis": "t/git-vis-ai-gaming.html"
+        "git_vis": "t/git-vis-ai-gaming.html",
+        "order": 2021
     },
     {
         "title": "Stock Screener",
@@ -139,7 +147,8 @@
                 "image": "img/ss/equations-d.jpg"
             }
         ],
-        "stack": ["ActionScript"]
+        "stack": ["ActionScript"],
+        "order": 2009
     },
     {
         "title": "CRM System",
@@ -159,7 +168,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        "git_vis": "t/git-vis-crm.html"
+        "git_vis": "t/git-vis-crm.html",
+        "order": 2013
     },
     {
         "title": "Maps",
@@ -178,7 +188,8 @@
                 "image": "img/fm/maps-i.jpg"
             }
         ],
-        "stack": ["ActionScript"]
+        "stack": ["ActionScript"],
+        "order": 2008
     },
     {
         "title": "Virtual Crowd",
@@ -193,7 +204,8 @@
                 "image": "img/cm/march-b.jpg"
             }
         ],
-        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "order": 2019
     },
     {
         "title": "Photo Gallery",
@@ -213,7 +225,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP"],
-        "git_vis": "t/git-vis-masonry.html"
+        "git_vis": "t/git-vis-masonry.html",
+        "order": 2015
     },
     {
         "title": "Recommendation System",
@@ -233,13 +246,15 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        "git_vis": "t/git-vis-hair.html"
+        "git_vis": "t/git-vis-hair.html",
+        "order": 2019
     },
     {
         "title": "Database Library",
         "content": "I built a database library. It's a prepared statement wrapper. There is also a model layer that makes it easy to use this library inside of class methods. Many of the projects on this page use this library.",
         "stack": ["PHP", "MySQL", "PostgreSQL", "SQLite"],
-        "github": "https://github.com/ferg1e/pajamaSQL"
+        "github": "https://github.com/ferg1e/pajamaSQL",
+        "order": 2010
     },
     {
         "title": "Lead Retrieval System",
@@ -259,7 +274,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "CodeREADr"],
-        "git_vis": "t/git-vis-leads.html"
+        "git_vis": "t/git-vis-leads.html",
+        "order": 2016
     },
     {
         "title": "E-Card System",
@@ -274,7 +290,8 @@
                 "image": "img/ec/sapl-d.jpg"
             }
         ],
-        "stack": ["ActionScript", "PHP", "MySQL"]
+        "stack": ["ActionScript", "PHP", "MySQL"],
+        "order": 2006
     },
     {
         "title": "Space MMO",
@@ -294,7 +311,8 @@
             }
         ],
         "stack": ["Babylon.js", "PHP", "MySQL"],
-        "git_vis": "t/git-vis-space-mmo.html"
+        "git_vis": "t/git-vis-space-mmo.html",
+        "order": 2018
     },
     {
         "title": "Single Item E-commerce Site",
@@ -314,7 +332,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "PayPal"],
-        "git_vis": "t/git-vis-man1.html"
+        "git_vis": "t/git-vis-man1.html",
+        "order": 2017
     },
     {
         "title": "Webpage CMS",
@@ -335,7 +354,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-this-site.html",
-        "github": "https://github.com/ferg1e/this-site"
+        "github": "https://github.com/ferg1e/this-site",
+        "order": 2010
     },
     {
         "title": "Business Intelligence System",
@@ -367,7 +387,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "Perl", "MySQL"],
-        "git_vis": "t/git-vis-promot.html"
+        "git_vis": "t/git-vis-promot.html",
+        "order": 2014
     },
     {
         "title": "English Learning App",
@@ -378,7 +399,8 @@
                 "image": "img/fat-rat/fat-rat-a.jpg"
             }
         ],
-        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+        "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "order": 2009
     },
     {
         "title": "Photo Booth App",
@@ -398,7 +420,8 @@
             }
         ],
         "stack": ["Dart", "Flutter"],
-        "git_vis": "t/git-vis-photo-booth.html"
+        "git_vis": "t/git-vis-photo-booth.html",
+        "order": 2022
     },
     {
         "title": "Toshiba E-learning System",
@@ -421,7 +444,8 @@
                 "image": "img/ebridge/ebridge-l.jpg"
             }
         ],
-        "stack": ["ActionScript"]
+        "stack": ["ActionScript"],
+        "order": 2004
     },
     {
         "title": "Payments System",
@@ -440,14 +464,16 @@
                 "image": "img/num/003.png"
             }
         ],
-        "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Braintree"]
+        "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Braintree"],
+        "order": 2015
     },
     {
         "title": "Skeleton User Website",
         "content": "I created a skeleton user-based website. It includes sign up, log in, log out, verify email, forgot password, remember me login, edit account and delete account. This is used as a starting point for the following projects on this page: <a href=\"#crm-system\">CRM</a>, <a href=\"#furniture-rental-system\">furniture rentals</a>, <a href=\"#virtual-crowd\">virtual crowd</a> and <a href=\"#space-mmo\">MMO game</a>.",
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-screen-name.html",
-        "github": "https://github.com/ferg1e/screen-name"
+        "github": "https://github.com/ferg1e/screen-name",
+        "order": 2012
     },
     {
         "title": "React Table Component",
@@ -460,13 +486,15 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "React"],
         "git_vis": "t/git-vis-rable.html",
-        "github": "https://github.com/ferg1e/rable"
+        "github": "https://github.com/ferg1e/rable",
+        "order": 2025
     },
     {
         "title": "Salespeople CRM",
         "content": "I made a CRM system for car salespeople. The salesperson uses the system to keep track of prospective car buyers. The system is sold to a car dealership, and the dealership provides access to their salespeople. Salespeople can send SMS text messages to car buyers via a web app. The payments setup involves free trials, subscriptions and multiple subscriptions per dealership. Here is a <a href=\"https://stackoverflow.com/questions/27596487/how-to-make-a-stripe-subscription-status-go-from-trialing-to-cancelled-if-there\">Stack Overflow payments question I asked</a> for this project. I only had an equity stake in this app.",
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Stripe", "Twilio"],
-        "git_vis": "t/git-vis-efu.html"
+        "git_vis": "t/git-vis-efu.html",
+        "order": 2014
     },
     {
         "title": "Document Repository",
@@ -477,6 +505,7 @@
                 "image": "img/doc-repo/001.jpg"
             }
         ],
-        "stack": ["ActionScript", "XML"]
+        "stack": ["ActionScript", "XML"],
+        "order": 2008
     }
 ]
