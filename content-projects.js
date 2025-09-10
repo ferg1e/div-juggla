@@ -6,6 +6,7 @@ module.exports.contentProjects = (projects) => {
     //
     let out = ''
     const tocLinks = []
+    const orderValues = []
 
     for(let i = 0; i < projects.length; ++i) {
         const p = projects[i]
@@ -56,6 +57,14 @@ module.exports.contentProjects = (projects) => {
 
         out += `<div id="${pid}" class="proj">${h2Html}${contentHtml}${stackHtml}${imagesHtml}</div>`
         tocLinks.push(`<li><a href="#${pid}">${p.title}</a></li>`)
+
+        //
+        orderValues.push(p.order);
+    }
+
+    //
+    if(orderValues.length != [...new Set(orderValues)].length) {
+        throw new Error('same order value used more than once')
     }
 
     return `<ul id="projects-nav">${tocLinks.join('')}</ul>` + `<div id="projects">${out}</div>`
