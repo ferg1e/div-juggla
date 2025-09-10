@@ -51,7 +51,7 @@ module.exports.contentProjects = (projects) => {
         }
 
         //
-        const h2Html = `<h2><a href="#${pid}">${p.title}</a></h2>`
+        const h2Html = `<h2><a href="#${pid}">${p.title} | ${p.date}</a></h2>`
         const contentHtml = `<div>${p.content}</div>`
 
         out += `<div id="${pid}" class="proj">${h2Html}${contentHtml}${stackHtml}${imagesHtml}</div>`

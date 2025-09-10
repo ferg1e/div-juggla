@@ -11,7 +11,8 @@
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "git_vis": "t/git-vis-git-vis.html",
         "github": "https://github.com/ferg1e/mrs-green-squares",
-        "order": 2016
+        "order": 2024,
+        "date": "2016, 2024"
     },
     {
         "title": "Static Site Generator",
@@ -19,7 +20,8 @@
         "stack": ["HTML", "CSS", "JavaScript", "Node"],
         "git_vis": "t/git-vis-ssg.html",
         "github": "https://github.com/ferg1e/div-juggla",
-        "order": 2024
+        "order": 2025,
+        "date": "2023-2025"
     },
     {
         "title": "Restaurant Management System",
@@ -36,14 +38,16 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-rms.html",
-        "order": 2020
+        "order": 2021,
+        "date": "2020-2021"
     },
     {
         "title": "Healthcare Portal",
         "content": "This was my first C#/.NET job. I worked on a healthcare app with 8 other developers. During the first two weeks I did easy tasks. Next, they asked me to fix a user search page that had never worked. Once I completed that task they started to assign me their most challenging and important projects. I built a super-admin dashboard, an insurance eligibility checker, and a patient bulk importer. The eligibility checker was the biggest project - it involved a CMS and an algorithm that checks if family medical history matches health insurance criteria. This job is how I discovered LINQ, which is super cool.",
         "stack": ["HTML", "AngularJS", "C#", "ASP.NET", "SQL Server"],
         "git_vis": "t/git-vis-health.html",
-        "order": 2016
+        "order": 2017,
+        "date": "2016-2017"
     },
     {
         "title": "Video Game",
@@ -64,7 +68,8 @@
         ],
         "stack": ["C++", "OpenGL ES"],
         "git_vis": "t/git-vis-ios-game.html",
-        "order": 2011
+        "order": 2012,
+        "date": "2010-2012"
     },
     {
         "title": "Internet Forum",
@@ -86,7 +91,8 @@
         "stack": ["HTML", "CSS", "JavaScript", "Node", "PostgresSQL"],
         "git_vis": "t/git-vis-forum.html",
         "github": "https://github.com/ferg1e/comment-castles",
-        "order": 2025.1
+        "order": 2025.1,
+        "date": "2020-2025"
     },
     {
         "title": "Furniture Rental System",
@@ -115,7 +121,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Braintree"],
         "git_vis": "t/git-vis-furniture.html",
-        "order": 2017
+        "order": 2019.2,
+        "date": "2017-2019"
     },
     {
         "title": "AI Gaming Platform",
@@ -128,7 +135,8 @@
         ],
         "stack": ["JavaScript", "Phaser", "Python", "Django"],
         "git_vis": "t/git-vis-ai-gaming.html",
-        "order": 2021
+        "order": 2021.5,
+        "date": "2021"
     },
     {
         "title": "Stock Screener",
@@ -148,7 +156,8 @@
             }
         ],
         "stack": ["ActionScript"],
-        "order": 2009
+        "order": 2010,
+        "date": "2009-2010"
     },
     {
         "title": "CRM System",
@@ -169,7 +178,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-crm.html",
-        "order": 2013
+        "order": 2013.5,
+        "date": "2013"
     },
     {
         "title": "Maps",
@@ -189,7 +199,8 @@
             }
         ],
         "stack": ["ActionScript"],
-        "order": 2008
+        "order": 2009,
+        "date": "2009"
     },
     {
         "title": "Virtual Crowd",
@@ -205,7 +216,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        "order": 2019
+        "order": 2019.5,
+        "date": "2019"
     },
     {
         "title": "Photo Gallery",
@@ -226,7 +238,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP"],
         "git_vis": "t/git-vis-masonry.html",
-        "order": 2015
+        "order": 2015.9,
+        "date": "2015"
     },
     {
         "title": "Recommendation System",
@@ -247,14 +260,16 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-hair.html",
-        "order": 2019
+        "order": 2024.4,
+        "date": "2018-2024"
     },
     {
         "title": "Database Library",
         "content": "I built a database library. It's a prepared statement wrapper. There is also a model layer that makes it easy to use this library inside of class methods. Many of the projects on this page use this library.",
         "stack": ["PHP", "MySQL", "PostgreSQL", "SQLite"],
         "github": "https://github.com/ferg1e/pajamaSQL",
-        "order": 2010
+        "order": 2012.3,
+        "date": "2012"
     },
     {
         "title": "Lead Retrieval System",
@@ -275,7 +290,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "CodeREADr"],
         "git_vis": "t/git-vis-leads.html",
-        "order": 2016
+        "order": 2016.5,
+        "date": "2016"
     },
     {
         "title": "E-Card System",
@@ -291,7 +307,8 @@
             }
         ],
         "stack": ["ActionScript", "PHP", "MySQL"],
-        "order": 2006
+        "order": 2006,
+        "date": "2006"
     },
     {
         "title": "Space MMO",
@@ -312,7 +329,8 @@
         ],
         "stack": ["Babylon.js", "PHP", "MySQL"],
         "git_vis": "t/git-vis-space-mmo.html",
-        "order": 2018
+        "order": 2018,
+        "date": "2017-2018"
     },
     {
         "title": "Single Item E-commerce Site",
@@ -333,7 +351,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "PayPal"],
         "git_vis": "t/git-vis-man1.html",
-        "order": 2017
+        "order": 2016,
+        "date": "2015-2016"
     },
     {
         "title": "Webpage CMS",
@@ -355,7 +374,8 @@
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-this-site.html",
         "github": "https://github.com/ferg1e/this-site",
-        "order": 2010
+        "order": 2015,
+        "date": "2009-2015"
     },
     {
         "title": "Business Intelligence System",
@@ -388,7 +408,8 @@
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "Perl", "MySQL"],
         "git_vis": "t/git-vis-promot.html",
-        "order": 2014
+        "order": 2019,
+        "date": "2014-2019"
     },
     {
         "title": "English Learning App",
@@ -400,7 +421,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        "order": 2009
+        "order": 2013,
+        "date": "2009, 2013"
     },
     {
         "title": "Photo Booth App",
@@ -421,7 +443,8 @@
         ],
         "stack": ["Dart", "Flutter"],
         "git_vis": "t/git-vis-photo-booth.html",
-        "order": 2022
+        "order": 2022,
+        "date": "2022"
     },
     {
         "title": "Toshiba E-learning System",
@@ -445,7 +468,8 @@
             }
         ],
         "stack": ["ActionScript"],
-        "order": 2004
+        "order": 2004,
+        "date": "2004"
     },
     {
         "title": "Payments System",
@@ -465,7 +489,8 @@
             }
         ],
         "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Braintree"],
-        "order": 2015
+        "order": 2015.7,
+        "date": "2015"
     },
     {
         "title": "Skeleton User Website",
@@ -473,7 +498,8 @@
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         "git_vis": "t/git-vis-screen-name.html",
         "github": "https://github.com/ferg1e/screen-name",
-        "order": 2012
+        "order": 2012.5,
+        "date": "2012"
     },
     {
         "title": "React Table Component",
@@ -487,14 +513,16 @@
         "stack": ["HTML", "CSS", "JavaScript", "React"],
         "git_vis": "t/git-vis-rable.html",
         "github": "https://github.com/ferg1e/rable",
-        "order": 2025
+        "order": 2024.9,
+        "date": "2024"
     },
     {
         "title": "Salespeople CRM",
         "content": "I made a CRM system for car salespeople. The salesperson uses the system to keep track of prospective car buyers. The system is sold to a car dealership, and the dealership provides access to their salespeople. Salespeople can send SMS text messages to car buyers via a web app. The payments setup involves free trials, subscriptions and multiple subscriptions per dealership. Here is a <a href=\"https://stackoverflow.com/questions/27596487/how-to-make-a-stripe-subscription-status-go-from-trialing-to-cancelled-if-there\">Stack Overflow payments question I asked</a> for this project. I only had an equity stake in this app.",
         "stack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Stripe", "Twilio"],
         "git_vis": "t/git-vis-efu.html",
-        "order": 2014
+        "order": 2015.2,
+        "date": "2014-2015"
     },
     {
         "title": "Document Repository",
@@ -506,6 +534,7 @@
             }
         ],
         "stack": ["ActionScript", "XML"],
-        "order": 2008
+        "order": 2008,
+        "date": "2008"
     }
 ]
