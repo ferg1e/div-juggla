@@ -73,7 +73,7 @@
     },
     {
         "title": "Internet Forum",
-        "content": "This is an internet forum that I developed. It has an OAuth 2 API. The nested comments utilize the Postgres ltree extension. The moderation system is similar to Reddit where each sub can have a different moderator.",
+        "content": "This is an internet forum that I develop. It has posts and nested comments. The nested comments use the PostgreSQL <a href=\"https://www.postgresql.org/docs/current/ltree.html\">ltree module</a>. It has an OAuth 2 JSON API. There are subs (ie. communities) and each sub has a different moderator. There are also direct messages.",
         "images": [
             {
                 "thumb": "img/ps/cc004-sml.png",
