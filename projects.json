@@ -503,7 +503,7 @@
     },
     {
         "title": "React Table Component",
-        "content": "I programmed a React table component. It displays an array of arrays or an array of object literals as an HTML table. You can edit table cells. If you use object literals you can sort by columns. I asked a question about this project on <a href=\"https://old.reddit.com/r/reactjs/comments/1f0hspq/in_terms_of_keys_how_do_you_display_an_array_of/\">r/reactjs</a>.",
+        "content": "I programmed a React table component. It displays an array of arrays or an array of object literals as an HTML table. You can edit table cells. If you use object literals you can sort by columns. <a href=\"https://old.reddit.com/r/reactjs/comments/1f0hspq/in_terms_of_keys_how_do_you_display_an_array_of/\">I asked a question</a> about this project on Reddit.",
         "images": [
             {
                 "thumb": "img/rable/002-sml.png",
