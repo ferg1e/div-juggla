@@ -5,7 +5,7 @@ const {contentProjects} = require('./content-projects.js')
 module.exports = [
     {
         title: "Ry's Apps",
-        content: `<div id="home">Hello, I am a freelance software developer. I specialize in building websites that use a database. I have also built CLI apps, iOS apps, desktop apps, libraries and video games. You can view my projects on the <a href="/projects">projects page</a>.</div>`,
+        content: `Hello and welcome to my website. I am a JavaScript developer. I build apps using JavaScript combined with other technologies. Please take a look at my JavaScript <a href="#">projects</a>, and <a href="#">contact</a> me if you need a JavaScript developer. I think that is it. Oh, I also specialize in minimalist UIs.`,
         filename: 'index.html',
         nav_title: 'home',
         nav_url: '/'
