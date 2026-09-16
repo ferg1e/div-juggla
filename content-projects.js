@@ -52,11 +52,16 @@ module.exports.contentProjects = (projects) => {
         }
 
         //
-        const h2Html = `<h2><a href="#${pid}">${p.title} | ${p.date}</a></h2>`
-        const contentHtml = `<div>${p.content}</div>`
+        const h2Html = `<h1>${p.title}</h1>`
+        const contentHtml = `<p>${p.content}</p>`
+        out += h2Html + contentHtml
 
-        out += `<div id="${pid}" class="proj">${h2Html}${contentHtml}${stackHtml}${imagesHtml}</div>`
-        tocLinks.push(`<li><a href="#${pid}">${p.title}</a></li>`)
+        //
+        //const h2Html = `<h2><a href="#${pid}">${p.title} | ${p.date}</a></h2>`
+        //const contentHtml = `<div>${p.content}</div>`
+
+        //out += `<div id="${pid}" class="proj">${h2Html}${contentHtml}${stackHtml}${imagesHtml}</div>`
+        //tocLinks.push(`<li><a href="#${pid}">${p.title}</a></li>`)
 
         //
         orderValues.push(p.order);
@@ -67,5 +72,6 @@ module.exports.contentProjects = (projects) => {
         throw new Error('same order value used more than once')
     }
 
-    return `<ul id="projects-nav">${tocLinks.join('')}</ul>` + `<div id="projects">${out}</div>`
+    //return `<ul id="projects-nav">${tocLinks.join('')}</ul>` + `<div id="projects">${out}</div>`
+    return out
 }
