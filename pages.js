@@ -19,7 +19,7 @@ module.exports = [
     },
     {
         title: "Contact",
-        content: `<div id="contact">Ry Ferguson<br><a href="mailto:rytf12@gmail.com">rytf12@gmail.com</a><br><a href="https://github.com/ferg1e">github.com/ferg1e</a></div>`,
+        content: `Ry Ferguson<br><a href="mailto:rytf12@gmail.com">rytf12@gmail.com</a><br><a href="https://github.com/ferg1e">github.com/ferg1e</a>`,
         filename: 'contact.html',
         nav_title: 'contact',
         nav_url: '/contact'
