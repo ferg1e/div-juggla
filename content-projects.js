@@ -4,7 +4,7 @@ module.exports.contentProjects = (projects) => {
     projects.sort((a, b) => b.order - a.order)
 
     //
-    let out = ''
+    let out = '<main id="projects">'
     const tocLinks = []
     const orderValues = []
 
@@ -73,5 +73,6 @@ module.exports.contentProjects = (projects) => {
     }
 
     //return `<ul id="projects-nav">${tocLinks.join('')}</ul>` + `<div id="projects">${out}</div>`
+    out += '</main>'
     return out
 }

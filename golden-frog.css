@@ -1,5 +1,16 @@
 body {
-    font-size: 5rem;
+    font-size: 3rem;
+    background-color: wheat;
+}
+
+main#home, main#projects {
+    margin: 0 auto;
+    max-width: 640px;
+    max-width: 50rem;
+}
+
+main#contact {
+    text-align: center;
 }
 
 h1 {
