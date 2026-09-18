@@ -1,6 +1,8 @@
 body {
     font-size: 3rem;
     background-color: wheat;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 
 main#home, main#projects {
