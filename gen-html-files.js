@@ -13,7 +13,7 @@ function genHtmlFiles(pages, templateText) {
         })
     
         fs.writeFile(
-            page.filename,
+            './out/' + page.filename,
             html,
             error => {
                 if(error) {
