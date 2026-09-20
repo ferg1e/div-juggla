@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const {gen} = require('./gen.js')
 const {getNavItems} = require('./get-nav-items.js')
 
@@ -13,7 +14,7 @@ function genHtmlFiles(pages, templateText) {
         })
     
         fs.writeFile(
-            './out/' + page.filename,
+            path.resolve(__dirname, '../out', page.filename),
             html,
             error => {
                 if(error) {
