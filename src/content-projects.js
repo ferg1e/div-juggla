@@ -52,7 +52,7 @@ module.exports.contentProjects = (projects) => {
         }
 
         //
-        const h2Html = `<h1>${p.title}</h1>`
+        const h2Html = `<h1>${p.title} <a href="${p.github}">GitHub</a></h1>`
         const contentHtml = `<p>${p.content}</p>`
         out += h2Html + contentHtml
 
