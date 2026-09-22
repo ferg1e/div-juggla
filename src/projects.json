@@ -1,7 +1,7 @@
 [
     {
         "title": "Git Visualization",
-        "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors. Some of the projects on this page have one of these visualizations indicated by a green Git link. These visualizations require a browser width of at least 1,200 pixels.",
+        "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors.",
         "images": [
             {
                 "thumb": "img/mrsgs/001-sml.jpg",
