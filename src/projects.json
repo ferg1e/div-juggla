@@ -24,8 +24,8 @@
         "date": "2023-2025"
     },
     {
-        "title": "Internet Forum",
-        "content": "This is an internet forum that I develop. It has posts and nested comments. The nested comments use the PostgreSQL <a href=\"https://www.postgresql.org/docs/current/ltree.html\">ltree module</a>. It has an OAuth 2 JSON API. There are subs/communities and hashtags. Each sub can have a different moderator. There are also direct messages.",
+        "title": "Reddit Clone",
+        "content": "This is a <a href=\"https://www.commentcastles.org\">Reddit clone</a> that I develop. No one really uses it but each time I finish reading a book I make a quick post on <a href=\"https://www.commentcastles.org/r/ireadthisbook\">this sub</a>. The nested comments use the <a href=\"https://www.postgresql.org/docs/current/ltree.html\">ltree module</a>. It has a <a href=\"https://www.commentcastles.org/api\">REST API</a>. It supports subs and hashtags for posts and both are optional. There's a <a href=\"https://www.commentcastles.org/help\">help page</a> that lists all the features. There are also direct messages.",
         "images": [
             {
                 "thumb": "img/ps/cc004-sml.png",
