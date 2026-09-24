@@ -12,17 +12,23 @@ function genHtmlFiles(pages, templateText) {
             content: page.content,
             nav_items: getNavItems(pages, i),
         })
-    
-        fs.writeFile(
-            path.resolve(__dirname, '../out', page.filename),
-            html,
-            error => {
-                if(error) {
-                    //console.log(error)
-                }
-                else {
-                    //console.log('saved')
-                }
+
+        fs.mkdir(
+            path.resolve(__dirname, '../out'),
+            {recursive:true},
+            err => {
+                fs.writeFile(
+                    path.resolve(__dirname, '../out', page.filename),
+                    html,
+                    error => {
+                        if(error) {
+                            //console.log(error)
+                        }
+                        else {
+                            //console.log('saved')
+                        }
+                    }
+                )
             }
         )
     }
