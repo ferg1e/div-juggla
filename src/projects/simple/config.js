@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
     templates: [
         {
             template_path: "template.html",
@@ -17,3 +17,5 @@ module.exports = {
         }
     ]
 }
+
+export default config
