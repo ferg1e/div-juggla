@@ -11,6 +11,6 @@ const configModule = await import(configFileUrl)
 const configData = configModule.default
 
 for(const t of configData.templates) {
-    const templatePath = path.resolve(import.meta.dirname, t.template_path)
+    const templatePath = path.resolve(projectDirPath, t.template_path)
     const templateText = await fs.readFile(templatePath, 'utf8')
 }
