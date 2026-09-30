@@ -10,6 +10,7 @@ const config = {
                 {
                     path: "index.html",
                     values: {
+                        title: "my title",
                         content: "Blah blah blah."
                     }
                 }
