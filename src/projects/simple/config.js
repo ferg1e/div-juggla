@@ -30,7 +30,8 @@ const config = {
                 }
             ]
         }
-    ]
+    ],
+    copy_files: ['styles.css']
 }
 
 export default config

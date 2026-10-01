@@ -25,3 +25,11 @@ for(const t of configData.templates) {
         await fs.writeFile(filePath, fileText)
     }
 }
+
+if(configData.copy_files) {
+    for(const cf of configData.copy_files) {
+        const src = path.resolve(projectDirPath, cf)
+        const dest = path.resolve(outDirPath, cf)
+        await fs.copyFile(src, dest)
+    }
+}
