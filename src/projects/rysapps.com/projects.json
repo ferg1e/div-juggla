@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Git Visualization",
+        "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors.",
+        "images": [
+            {
+                "thumb": "img/mrsgs/001-sml.jpg",
+                "image": "img/mrsgs/001.jpg"
+            }
+        ],
+        "stack": ["HTML", "CSS", "JavaScript", "Node"],
+        "git_vis": "t/git-vis-git-vis.html",
+        "github": "https://github.com/ferg1e/mrs-green-squares",
+        "order": 2024,
+        "date": "2016, 2024"
+    },
+    {
+        "title": "Static Site Generator",
+        "content": "I made a static site generator for this portfolio site you are currently viewing. If you run the generator without modification, then you will get this exact site. But it is easy to change the data in order to generate a different website.",
+        "stack": ["HTML", "CSS", "JavaScript", "Node"],
+        "git_vis": "t/git-vis-ssg.html",
+        "github": "https://github.com/ferg1e/div-juggla",
+        "order": 2025,
+        "date": "2023-2025"
+    },
+    {
+        "title": "Reddit Clone",
+        "content": "This is a <a href=\"https://www.commentcastles.org\">Reddit clone</a> that I develop. No one really uses it but each time I finish reading a book I make a quick post on <a href=\"https://www.commentcastles.org/r/ireadthisbook\">this sub</a>. The nested comments use the <a href=\"https://www.postgresql.org/docs/current/ltree.html\">ltree module</a>. It has a <a href=\"https://www.commentcastles.org/api\">REST API</a>. It supports subs and hashtags for posts and both are optional. There's a <a href=\"https://www.commentcastles.org/help\">help page</a> that lists all the features. There are also direct messages.",
+        "images": [
+            {
+                "thumb": "img/ps/cc004-sml.png",
+                "image": "img/ps/cc004.png"
+            },
+            {
+                "thumb": "img/ps/cc005-sml.png",
+                "image": "img/ps/cc005.png"
+            },
+            {
+                "thumb": "img/ps/cc003-sml.jpg",
+                "image": "img/ps/cc003.jpg"
+            }
+        ],
+        "stack": ["HTML", "CSS", "JavaScript", "Node", "PostgresSQL"],
+        "git_vis": "t/git-vis-forum.html",
+        "github": "https://github.com/ferg1e/comment-castles",
+        "order": 2025.1,
+        "date": "2020-2026"
+    },
+    {
+        "title": "React Table",
+        "content": "I programmed a React table component. It displays an array of arrays or an array of object literals as an HTML table. You can edit table cells. If you use object literals you can sort by columns. <a href=\"https://old.reddit.com/r/reactjs/comments/1f0hspq/in_terms_of_keys_how_do_you_display_an_array_of/\">I asked a question</a> about this project on Reddit.",
+        "images": [
+            {
+                "thumb": "img/rable/002-sml.png",
+                "image": "img/rable/002.png"
+            }
+        ],
+        "stack": ["HTML", "CSS", "JavaScript", "React"],
+        "git_vis": "t/git-vis-rable.html",
+        "github": "https://github.com/ferg1e/rable",
+        "order": 2024.9,
+        "date": "2024"
+    }
+]
