@@ -1,3 +1,6 @@
+import projects from './projects.json' with { type: 'json' };
+import {contentProjects} from './content-projects.js';
+
 const config = {
     templates: [
         {
@@ -14,7 +17,7 @@ const config = {
                     path: "projects.html",
                     values: {
                         title: "Projects",
-                        content: `projects go here`
+                        content: contentProjects(projects)
                     }
                 },
                 {
