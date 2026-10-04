@@ -3,7 +3,7 @@ import path from 'path'
 import url from 'url'
 import {gen} from './gen.js'
 
-const projectName = 'simple'
+const projectName = process.argv[2]
 const projectDirPath = path.resolve(import.meta.dirname, '../projects', projectName)
 const configFilePath = path.resolve(projectDirPath, 'config.js')
 const configFileUrl = url.pathToFileURL(configFilePath)
