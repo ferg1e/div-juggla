@@ -1,4 +1,4 @@
-function gen(templateText, placeholderValues) {
+export function gen(templateText, placeholderValues) {
     let outText = templateText
 
     for(const placeholder in placeholderValues) {
@@ -11,5 +11,3 @@ function gen(templateText, placeholderValues) {
 
     return outText
 }
-
-module.exports.gen = gen
