@@ -1,5 +1,11 @@
 [
     {
+        "title": "Craigslist Scraper",
+        "content": "I built a Craigslist scraper. You can pick one jobs or gigs category and multiple cities for each run of the scraper.",
+        "github": "https://github.com/ferg1e/craigspist",
+        "order": 2023
+    },
+    {
         "title": "Git Visualization",
         "content": "I developed a Git commit visualization. It's almost identical to the GitHub commit visualization but it also shows commit messages and you can use multiple square colors.",
         "images": [
